@@ -1,4 +1,7 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
+import 'package:fullshopapp/screen/cart/cart_screen.dart';
 import 'package:fullshopapp/screen/complete_profile/complete_profile_screen.dart';
 import 'package:fullshopapp/screen/details/details_screen.dart';
 import 'package:fullshopapp/screen/forgot_password/forgot_password_screen.dart';
@@ -19,4 +22,5 @@ final Map<String, WidgetBuilder> routes = {
   OtpScreen.routeName: (context) => OtpScreen(),
   HomeScreen.routeName: (context) => HomeScreen(),
   DetailsScreen.routeName: (context) => DetailsScreen(),
+  CartScreen.routeName: (context) => CartScreen(),
 };
